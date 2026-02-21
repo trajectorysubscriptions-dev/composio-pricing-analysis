@@ -1,0 +1,119 @@
+{
+  "source": "https://composio.dev/pricing",
+  "retrieved": "2025",
+  "tiers": [
+    {
+      "name": "Totally Free",
+      "price_monthly": 0,
+      "currency": "USD",
+      "tagline": "No credit card required",
+      "tool_calls_included": 20000,
+      "additional_tool_call_cost_per_1k": null,
+      "premium_tool_calls_included": 1000,
+      "additional_premium_cost_per_1k": null,
+      "connected_accounts_included": 1000,
+      "additional_connected_account_cost_per_1k": null,
+      "log_retention_days": 14,
+      "support": "Community",
+      "projects": "Unlimited",
+      "team_members": "Unlimited",
+      "custom_tool_builder": "3 apps",
+      "rbac": false,
+      "audit_logs": false,
+      "soc2": false,
+      "vpc_onprem": false
+    },
+    {
+      "name": "Ridiculously Cheap",
+      "price_monthly": 29,
+      "currency": "USD",
+      "tagline": "No need to talk to humans",
+      "tool_calls_included": 200000,
+      "additional_tool_call_cost_per_1k": 0.299,
+      "premium_tool_calls_included": 5000,
+      "additional_premium_cost_per_1k": 0.897,
+      "connected_accounts_included": 30000,
+      "additional_connected_account_cost_per_1k": 2.0,
+      "log_retention_days": 30,
+      "support": "Email",
+      "projects": "Unlimited",
+      "team_members": "Unlimited",
+      "custom_tool_builder": "Unlimited",
+      "rbac": false,
+      "audit_logs": false,
+      "soc2": false,
+      "vpc_onprem": false
+    },
+    {
+      "name": "Serious Business",
+      "price_monthly": 229,
+      "currency": "USD",
+      "tagline": "Maybe talk to humans?",
+      "tool_calls_included": 2000000,
+      "additional_tool_call_cost_per_1k": 0.249,
+      "premium_tool_calls_included": 50000,
+      "additional_premium_cost_per_1k": 0.747,
+      "connected_accounts_included": 100000,
+      "additional_connected_account_cost_per_1k": 1.0,
+      "log_retention_days": 90,
+      "support": "Slack (on $1K+ spend)",
+      "projects": "Unlimited",
+      "team_members": "Unlimited",
+      "custom_tool_builder": "Unlimited",
+      "rbac": true,
+      "audit_logs": false,
+      "soc2": false,
+      "vpc_onprem": false
+    },
+    {
+      "name": "Enterprise",
+      "price_monthly": null,
+      "currency": "USD",
+      "tagline": "Secure, reliable and accurate LLM integrations at scale",
+      "tool_calls_included": "Flexible",
+      "additional_tool_call_cost_per_1k": "Volume discounts",
+      "premium_tool_calls_included": "Flexible",
+      "additional_premium_cost_per_1k": "Volume discounts",
+      "connected_accounts_included": "Flexible",
+      "additional_connected_account_cost_per_1k": "Custom",
+      "log_retention_days": "Flexible",
+      "support": "Dedicated + Custom SLA",
+      "projects": "Unlimited",
+      "team_members": "Unlimited",
+      "custom_tool_builder": "Unlimited",
+      "rbac": true,
+      "audit_logs": true,
+      "soc2": true,
+      "vpc_onprem": true
+    }
+  ],
+  "rate_limits": {
+    "free": {
+      "tool_calls_per_min": 100,
+      "premium_tool_calls_per_hour": 1000,
+      "infra_per_min": 1000
+    },
+    "paid": {
+      "tool_calls_per_min": 5000,
+      "premium_tool_calls_per_hour": 10000,
+      "infra_per_min": 10000
+    },
+    "enterprise": "Custom"
+  },
+  "special_programs": [
+    {
+      "name": "Composio Startup Program",
+      "benefit": "Up to $25,000 in free credits",
+      "eligibility": "Eligible startups"
+    }
+  ],
+  "premium_tool_categories": [
+    "Search APIs (Google, Bing, Perplexity, etc.)",
+    "Code execution environments (e2b)",
+    "Web scraping & data extraction (Firecrawl)",
+    "AI/ML model inference",
+    "Document processing & OCR",
+    "Advanced data transformations",
+    "Compute-intensive operations"
+  ]
+}
